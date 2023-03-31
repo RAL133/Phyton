@@ -13,7 +13,9 @@ print(raw_data)
 print(raw_data.info())
 
 # 2. Process
+DataMenu = len(raw_data)
 raw_data.sort_values(["Menu"],axis=0,inplace=True)
 
 # 3. Output
+print(f'count:{DataMenu}')
 print(raw_data)
